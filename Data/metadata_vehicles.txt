@@ -1,0 +1,20 @@
+Original variable name,Formula,Column name in the model
+COMPACTNESS,(average perim)**2/area,compactness
+CIRCULARITY,(average radius)**2/area,circularity
+DISTANCE CIRCULARITY,area/(av.distance from border)**2,distance_circularity
+RADIUS RATIO,(max.rad-min.rad)/av.radius,radius_ratio
+PR.AXIS ASPECT RATIO,(minor axis)/(major axis),pr_axis_aspect_ratio
+MAX.LENGTH ASPECT RATIO,(length perp. max length)/(max length),max_length_aspect_ratio
+SCATTER RATIO,(inertia about minor axis)/(inertia about major axis),scatter_ratio
+ELONGATEDNESS,area/(shrink width)**2,elongatedness
+PR.AXIS RECTANGULARITY,area/(pr.axis length*pr.axis width),pr_axis_rectangularity
+MAX.LENGTH RECTANGULARITY,area/(max.length*length perp. to this),max_length_rectangularity
+SCALED VARIANCE,(2nd order moment about minor axis)/area ALONG MAJOR AXIS,scaled_variance1
+SCALED VARIANCE,(2nd order moment about major axis)/area ALONG MINOR AXIS,scaled_variance2
+SCALED RADIUS OF GYRATION,(mavar+mivar)/area,scaled_radius_of_gyration
+SKEWNESS ABOUT,(3rd order moment about major axis)/sigma_min**3 MAJOR AXIS,skewness_about1
+SKEWNESS ABOUT,(3rd order moment about minor axis)/sigma_maj**3 MINOR AXIS,skewness_about2
+KURTOSIS ABOUT,(4th order moment about major axis)/sigma_min**4 MINOR AXIS,kurtosis_about1
+KURTOSIS ABOUT,(4th order moment about minor axis)/sigma_maj**4 MAJOR AXIS,kurtosis_about2
+HOLLOWS RATIO,(area of hollows)/(area of bounding polygon),hollows_ratio
+VEHICLE (OUTPUT VARIABLE),Possible values: (Opel / Saab / Bus / Van),vehicle
